@@ -34,5 +34,7 @@ How to use:
     $ cucumber features BROWSER=chrome
     $ cucumber features BROWSER=firefox
     $ cucumber features BROWSER=ie
-    $ cucumber features BROWSER=headless
+    $ cucumber features BROWSER=headless  # NOTE: need capybara-webkit gem and Qt library installed on your system to use this feature
+
+
 
