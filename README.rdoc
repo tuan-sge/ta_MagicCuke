@@ -29,7 +29,7 @@ How to use:
     $ java -jar MagicCuke.jar cuke    # => force MagicCuke to create a stand-alone cucumber test suite under the same directory
     $ java -jar MagicCuke.jar help    # => list available console commands
 
-4) Cucumber Test on different browsers:
+ 4) Cucumber Test on different browsers:
 
     $ cucumber features BROWSER=chrome
     $ cucumber features BROWSER=firefox
