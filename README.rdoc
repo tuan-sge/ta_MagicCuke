@@ -1,0 +1,30 @@
+
+Description: 
+
+ 1) Designed to assist developers to instantly integrate cucumber into rails environment
+    (Note: this utility also comes with "simplecov" built-in)
+
+ 2) Can also be used as a stand-alone cucumber test suite for black-box testing websites
+
+-------------
+
+How to use:
+
+ 1) Copy MagicCuke.jar into your rails environment folder
+ 
+ 2) Run the MagicCuke.jar file at the command line 
+   
+    a) If MagicCuke detects a properly-setup rails environment, it'll create a cucumber
+       test suite (with "simplecov" built-in) into the rails environment
+
+    b) If MagicCuke fails to detect a rails environment, it'll create a stand-alone
+       cucumber test suite in the same directory. This stand-alone cucumber test suite
+       can be used for black-box testing website if needed.
+
+ 3) Console commands:
+    NOTE: case sensitive commands
+
+    $ java -jar MagicCuke.jar         # => initiate MagicCuke, which will auto-detect rails environment, then acts accordingly
+    $ java -jar MagicCuke.jar rails   # => force MagicCuke to integrate cucumber into rails, regardless if rails is properly setup or not
+    $ java -jar MagicCuke.jar cuke    # => force MagicCuke to create a stand-alone cucumber test suite under the same directory
+    $ java -jar MagicCuke.jar help    # => list available console commands
